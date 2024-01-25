@@ -1,0 +1,11 @@
+data name: FB15k
+model name: IECNET
+learning rate: 0.003
+entity dimension: 200
+relation dimension: 200
+batch size: 128
+decay rate: 1.0
+label smoothing: 0.1
+convolution parameters: {'input_dropout': 0.2, 'hidden_dropout': 0.3, 'feature_map_dropout': 0.2, 'in_channels': 1, 'out_channels': 32, 'filt_height': 3, 'filt_width': 3}
+
+Epoch	MR	MRR	Hits1	Hits3	Hits10	Best_MR	Best_MRR	Best_Hits1	Best_Hits3	Best_Hits10
